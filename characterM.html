@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="characterMstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<script>
+    function openform()
+    {
+        document.getElementById("loginpopupform").style.display = "block";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "blur(20px)";
+        }
+        document.getElementsByClassName("content")[0].style.display = "none"
+    }
+
+    function closeform()
+    {
+        document.getElementById("loginpopupform").style.display = "none";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "none";
+        }
+        
+    }
+
+    function opensignform()
+    {
+        document.getElementById("signuppopupform").style.display = "block";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "blur(20px)";
+        }
+    }
+
+    function closesignform()
+    {
+        document.getElementById("signuppopupform").style.display = "none";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "none";
+        }
+    }
+
+    function change()
+    {
+        window.location.replace("index.html");
+    }
+</script>
+<body>
+    <header> 
+        <div class="topnav blur">
+            <div class="logo" onclick="change()"></div>
+            <div class="options">
+                <a href="animeM.html">Anime</a>
+                <a href="mangaM.html">Manga</a>
+                <a href="characterM.html">Characters</a>
+                <a href="communityM.html">Community</a>
+            </div>
+            <div class="others">
+                <select id="drop">
+                    <option value="anime">Anime</option>
+                    <option value="manga">Manga</option>
+                    <option value="characters">Characters</option>
+                    <option value="people">People</option>
+                    <option value="users">Users</option>
+                </select>
+                <a href="#"><i class="fa-solid fa-bell"></i></a>
+                <a href="#" onclick="opensignform()">Sign up</a>
+                <a href="#" onclick="openform()">Login</a>
+            </div>
+        </div>
+        <div class="panel blur">
+            <div class="pcontent">
+                <h1>Explore anime and manga characters</h1>
+                <p>Mark your favorites, find characters with tags and filters</p>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content1 blur">
+            <h2>Top loved characters today</h2>
+            <div class="row1">
+                <div class="r1b1"><h3>Kakashi HATAKE</h3></div>
+                <div class="r1b2"><h3>Naruto UZUMAKI</h3></div>
+                <div class="r1b3"><h3>Levi</h3></div>
+                <div class="r1b4"><h3>Light YAGAMI</h3></div>
+                <div class="r1b5"><h3>L</h3></div>
+            </div>
+            <button>SEE ALL CHARACTERS</button>
+        </div>
+        <div class="content2 blur"></div>
+        <div class="content3 blur">
+            <h2>Top hated characters today</h2>
+            <div class="row3">
+                <div class="r3b1"><h3>Muzan KIBUTSUJI</h3></div>
+                <div class="r3b2"><h3>
+                    Orochimaru</h3></div>
+                <div class="r3b3"><h3>Danzo SHIMURA</h3></div>
+                <div class="r3b4"><h3>Gabi BRAUN</h3></div>
+                <div class="r3b5"><h3>Minoru MINETA</h3></div>
+                <div class="r3b6"><h3>Near</h3></div>
+                <div class="r3b7"><h3>Mahito</h3></div>
+            </div>
+            <button>SEE ALL CHARACTERS</button>
+        </div>
+    </div>
+    <div class="content4 blur">
+        <h2>Random characters</h2>
+        <div class="row4">
+            <div class="r4b1"><h3>Franklin</h3></div>
+            <div class="r4b2"><h3>
+                Takaomi FUJINAMI</h3></div>
+            <div class="r4b3"><h3>Umi</h3></div>
+            <div class="r4b4"><h3>Hanuka</h3></div>
+            <div class="r4b5"><h3>Goat</h3></div>
+            <div class="r4b6"><h3>Guku</h3></div>
+            <div class="r4b7"><h3>Higoromou SUWA</h3></div>
+        </div>
+    </div>
+</div>
+<div class="content5 blur">
+    <h2>Random characters</h2>
+    <div class="row5">
+        <div class="r5b1"><h3>Yasunori's Nekomata</h3></div>
+        <div class="r5b2"><h3>Rindo's Black Dog</h3></div>
+        <div class="r5b3"><h3>Rindo's Brown Dog</h3></div>
+        <div class="r5b4"><h3>Ashiya's Shikigami</h3></div>
+        <div class="r5b5"><h3>Koume</h3></div>
+        <div class="r5b6"><h3>Bobo SOLAS</h3></div>
+        <div class="r4b7"><h3>Emperor</h3></div>
+    </div>
+</div>
+</div>
+    <div class="loginpopup">
+        <div class="formpopup" id="loginpopupform">
+            <form action="/action_page.php" class="formContainer">
+                <div class="lclose" onclick = "closeform()"><i class="fa-solid fa-xmark"></i></div>
+                <div class="loginlogo"></div>
+                <div class="loginheading"><h2>Log in to AnimeRealm</h2></div>
+                <div class="signop"><p>Need an account? Sign up now</p></div>
+                <div class="loginfb"><button><i class="fa-brands fa-square-facebook"></i>  Login with Facebook</button></div>
+                <div class="logintwitter"><button><i class="fa-brands fa-twitter"></i> Login with Twitter</button></div>
+                <h4>Or</h4>
+                <div class="inp">
+                    <input type="text" name="username" placeholder="Username or email address">
+                    <input type="password" name="pswd" placeholder="Password">
+                </div>
+                <div class="confirmlogin">
+                    <button>LOG IN</button>
+                </div>
+                <div class="forgotpswd"><p>Forgot your password?</p></div>
+            </form>
+        </div>
+    </div>
+    <div class="signform">
+        <div class="signuppopup" id="signuppopupform">
+            <form action="/action_page.php" class="formContainer">
+                <div class="sclose" onclick = "closesignform()"><i class="fa-solid fa-xmark"></i></div>
+                <div class="signlogo"></div>
+                <div class="signheading"><h1>Sign up for AnimeRealm</h1></div>
+                <div class="signp"><p>Discover anime and manga, track your progress, get recommendations, and watch legal anime. For free!</p></div>
+                <div class="signfb"><button><i class="fa-brands fa-square-facebook"></i> Sign up with Facebook</button></div>
+                <div class="signtwitter"><button><i class="fa-brands fa-twitter"></i> Sign up with Twitter</button></div>
+                <div class="sor"><h4>Or</h4></div>
+                <div class="scontent">
+                    <input type="text" name="username" placeholder="Username">
+                    <input type="text" name="email" placeholder="Email">
+                    <input type="password" name="pswd" placeholder="Password">
+                    <input id = "agree" type="checkbox" name="agree">I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+                    <div class="g-recaptcha" data-sitekey="Your site key goes here"></div>
+                </div>
+                <div class="confirmsign"><button>CREATE ACCOUNT</button></div>
+                <div class="sdesc"><p>Already a member? <a href="#"> Log in</a></p></div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="fan">
+            <div class="fcontent1">
+                <div class="heading"><h2><b>AnimeRealm</b> is a run by fans, for fans</h2></div>
+                <div class="button"><button><i class="fa-brands fa-patreon"></i> Support us on Patreon</button></div>
+                <div class="para"><p>Learn about more ways to <a href="#">support AnimeRealm</a></p></div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="fcontent2">
+                <div class="icon">
+                    <div class="fb"><i class="fa-brands fa-square-facebook"></i></div>
+                    <div class="twitter"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="insta"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="discord"><i class="fa-brands fa-discord"></i></div>
+                    <div class="patreon"><i class="fa-brands fa-patreon"></i></div>
+                </div>
+                <div class="mode"></div>
+            </div>
+        </div>
+        <div class="otherlinks">
+            <ul>
+                <li><a>Contact</a></li>
+                <li><a>About</a></li>
+                <li><a>Terms of Use</a></li>
+                <li><a>Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

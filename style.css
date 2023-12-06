@@ -1,0 +1,1488 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #1F1F1F;
+}
+
+ 
+/**************************************** TOP NAVIGATION BAR**************************************************/
+
+.topnav{
+    width: 100%;
+    height: 54px;
+    font: 2rem;
+    background-color: #282828;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    background-image: url(logo6.jpg);
+    background-size:cover;
+    border-radius: 50%;
+}
+
+.topnav a{
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+
+.options a{
+    padding: 20px;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.others a{
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#drop{
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+}
+
+/************************************************** PANEl****************************************************/
+
+.panel{
+    width:100%;
+    height: 300px;
+    background-image: url(panel7.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.panel p{
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: arial;
+    color: rgba(255,255,255, 1.0);
+}
+
+.panel h1{
+    font-size: 2rem;
+    font-family: Arial;
+    position: relative;
+    font-family: arial;
+    color: rgba(255,255,255, 1.0);
+
+}
+
+.pcontent{
+    background-color: #1F1F1F;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*******************************************SLIDESHOW AND DESCRIPTION*****************************************/
+.content1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow{
+    width: 690px;
+    height: 380px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.desc{
+    width: 500px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 1rem;
+}
+
+.desc h1, p{
+    padding-bottom: 20px;
+}
+
+button{
+    height: 40px;
+    margin-right: 20px;
+    padding: 10px;
+    font-family: arial;
+    font-size: 1rem;
+    color: white;
+    border: none;
+}
+
+#btn1{
+    background-color: #2579fb;
+}
+
+#btn2{
+    background-color: #FC5342;
+}
+
+/******************************************** BLANK RECTANGLE ************************************************/
+
+.content2{
+    height: 90px;
+    width: 1255px;
+    background-color: #282828;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+
+/************************************************POPULAR ANIME THIS WEEK**************************************/
+
+.content3{
+    width: 1255px;
+    height: 350px;
+    margin-left: 130px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+.content3 h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6rem;
+    font-family: Arial;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.r1b1{
+    background-image: url(jujutsuKaisen.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r1b1 h3{
+    position: relative;
+    margin-top: 239px;
+    font-size: 0.85rem;
+    font-family: Arial;
+    text-align: center;
+}
+
+.r1b2{
+    background-image: url(the-eminence-in-shadow-2nd-season-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r1b2 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r1b3{
+    background-image: url(dr-stone-new-world-part-ii-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r1b3 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r1b4{
+    background-image: url(berserk-of-gluttony-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    border-radius: 5px;
+    height: 231px;
+}
+
+.r1b4 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r1b5{
+    background-image: url(a-returners-magic-should-be-special-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    border-radius: 5px;
+    height: 231px;
+}
+
+.r1b5 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r1b6{
+    background-image: url(the-kingdoms-of-ruin-1-285x399.webp);
+    background-size: cover;
+    border-radius: 5px;
+    width: 165px;
+    height: 231px;
+}
+
+.r1b6 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r1b7{
+    background-image: url(jujutsu-kaisen-1-190x286.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    width: 165px;
+    height: 231px;
+}
+
+.r1b7 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.content3 button{
+    margin-top: 60px;
+    margin-left: 530px;
+    margin-bottom: 50px;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    width: 232px;
+    height: 43px;
+    font-size: 0.85rem;
+}
+
+/******************************************POPULAR MANGA THIS WEEK********************************************/
+
+.content4{
+    width: 1255px;
+    height: 435px;
+    margin-left: 130px;
+    margin-top: 100px;
+    background-color: #282828;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+.content4 h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6rem;
+    font-family: Arial;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.r2b1{
+    background-image: url(one-piece-aces-story-1-285x427.webp);
+    border-radius: 5px;
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+}
+
+.r2b1 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r2b2{
+    background-image: url(the-100th-regression-of-the-max-level-player-1-285x399.webp);
+    border-radius: 5px;
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+}
+
+.r2b2 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r2b3{
+    background-image: url(the-greatest-estate-developer-1-285x398.jpg);
+    border-radius: 5px;
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+}
+
+.r2b3 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r2b4{
+    background-image: url(sss-class-revival-hunter-1-285x399.webp);
+    border-radius: 5px;
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+}
+
+.r2b4 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r2b5{
+    background-image: url(my-blasted-reincarnated-life-1-285x399.webp);
+    background-size: cover;
+    border-radius: 5px;
+    width: 165px;
+    height: 231px;
+}
+
+.r2b5 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r2b6{
+    background-image: url(the-genius-assassin-who-takes-it-all-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    border-radius: 5px;
+    height: 231px;
+}
+
+.r2b6 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r2b7{
+    background-image: url(nano-machine-1-285x400.webp);
+    background-size: cover;
+    width: 165px;
+    border-radius: 5px;
+    height: 231px;
+}
+
+.r2b7 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.content4 button{
+    margin-top: 60px;
+    margin-left: 530px;
+    margin-bottom: 50px;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    width: 232px;
+    height: 43px;
+    font-size: 0.85rem;
+}
+
+/***********************************************NEWEST ANIME RECOMMENDATIONS**********************************/
+
+.content5{
+    width: 1205px;
+    height: 550px;
+    margin-left: 130px;
+    margin-top: 20px;
+    padding: 25.6px;
+}
+
+.content5 h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6rem;
+    font-family: Arial;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.row3r1{
+    display: flex;
+}
+/*****************************************BOX 1***************************************************************/
+
+.r3b1{
+    width: 400px;
+    height: 550px;
+}
+
+.r3b1r1{
+    display: flex;
+}
+
+.r3b1r2{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 320px;
+}
+
+.r3b1r2 button{
+    width: 100%;
+    border: none;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+}
+
+.b11, .b12{
+    height: 191px;
+    width: 136px;
+    border-radius: 5px;
+    margin-right: -20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.b11{
+    background-image: url(lycoris-recoil-1-285x399.webp);
+    background-size: cover;
+}
+
+.b11 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.b11 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.b12{
+    background-image: url(read-or-die-tv-1-190x285.jpg);
+    background-size: cover;
+}
+
+.b12 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.b12 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+/*********************************************BOX 2***********************************************************/
+
+.r3b2{
+    width: 400px;
+    height: 550px;
+}
+
+.r3b2r1{
+    display: flex;
+}
+
+.r3b2r2{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 320px;
+}
+
+.r3b2r2 button{
+    width: 100%;
+    border: none;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+}
+
+.b21, .b22{
+    height: 191px;
+    width: 136px;
+    border-radius: 5px;
+    margin-right: -20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.b21{
+    background-image: url(lonely-castle-in-the-mirror-1-285x399.webp);
+    background-size: cover;
+}
+
+.b21 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.b21 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.b22{
+    background-image: url(the-tunnel-to-summer-the-exit-of-goodbye-1-285x400.webp);
+    background-size: cover;
+}
+
+.b22 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.b22 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+/**********************************************BOX 3**********************************************************/
+
+.r3b3{
+    width: 400px;
+    height: 550px;
+}
+
+.r3b3r1{
+    display: flex;
+}
+
+.r3b3r2{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 320px;
+}
+
+.r3b3r2 button{
+    width: 100%;
+    border: none;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+}
+
+.b31, .b32{
+    height: 191px;
+    width: 136px;
+    border-radius: 5px;
+    margin-right: -20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.b31{
+    background-image: url(beck-mongolian-chop-squad-1-190x279.jpg);
+    background-size: cover;
+}
+
+.b31 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.b31 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.b32{
+    background-image: url(kids-on-the-slope-1-190x269.jpg);
+    background-size: cover;
+}
+
+.b32 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.b32 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.row3r2{
+    margin-top: -160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row3r2 button{
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    width: 332px;
+    height: 43px;
+    font-size: 0.85rem;
+}
+
+/***********************************************FALL 2023 ANIME***********************************************/
+
+.content6{
+    width: 1255px;
+    height: 526px;
+    margin-left: 130px;
+    margin-top: 20px;
+    background-color: #282828;
+}
+
+.row4r1{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.content6 h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6rem;
+    font-family: Arial;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.r4b1{
+    background-image: url(digimon-adventure-02-the-beginning-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r4b1 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r4b2{
+    background-image: url(girlfriend-girlfriend-season-2-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r4b2 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r4b3{
+    background-image: url(berserk-of-gluttony-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r4b3 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r4b4{
+    background-image: url(the-family-circumstances-of-the-irregular-witch-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r4b4 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r4b5{
+    background-image: url(the-100-girlfriends-who-really-really-really-really-really-love-you-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r4b5 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r4b6{
+    background-image: url(undead-unluck-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r4b6 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r4b7{
+    background-image: url(hoshikuzu-telepath-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r4b7 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.row4r2 button{
+    margin-top: 100px;
+    margin-left: 530px;
+    margin-bottom: 50px;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    width: 232px;
+    height: 43px;
+    font-size: 0.85rem;
+}
+
+/************************************NEWEST MANGA RECOMMENDATION*********************************************/
+
+.content7{
+    width: 1205px;
+    height: 550px;
+    margin-left: 130px;
+    margin-top: 20px;
+    padding: 25.6px;
+}
+
+.content7 h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6rem;
+    font-family: Arial;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.row5r1{
+    display: flex;
+}
+/*****************************************BOX 1**************************************************************/
+
+.r5b1{
+    width: 400px;
+    height: 550px;
+}
+
+.r5b1r1{
+    display: flex;
+}
+
+.r5b1r2{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 320px;
+}
+
+.r5b1r2 button{
+    width: 100%;
+    border: none;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+}
+
+.b511, .b512{
+    height: 191px;
+    width: 136px;
+    border-radius: 5px;
+    margin-right: -20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.b511{
+    background-image: url(interviews-with-monster-girls-1-190x271.jpg);
+    background-size: cover;
+}
+
+.b511 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.b511 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.b512{
+    background-image: url(kanojo-wa-rokurokubi-1-190x284.jpg);
+    background-size: cover;
+}
+
+.b512 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.b512 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+/*********************************************BOX 2***********************************************************/
+
+.r5b2{
+    width: 400px;
+    height: 550px;
+}
+
+.r5b2r1{
+    display: flex;
+}
+
+.r5b2r2{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 320px;
+}
+
+.r5b2r2 button{
+    width: 100%;
+    border: none;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+}
+
+.b521, .b522{
+    height: 191px;
+    width: 136px;
+    border-radius: 5px;
+    margin-right: -20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.b521{
+    background-image: url(lout-of-counts-family-novel-1-190x276.jpg);
+    background-size: cover;
+}
+
+.b521 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.b521 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.b522{
+    background-image: url(the-reincarnated-assassin-is-a-genius-swordsman-novel-1-285x400.webp);
+    background-size: cover;
+}
+
+.b522 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.b522 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+/**********************************************BOX 3**********************************************************/
+
+.r5b3{
+    width: 400px;
+    height: 550px;
+}
+
+.r5b3r1{
+    display: flex;
+}
+
+.r5b3r2{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 320px;
+}
+
+.r5b3r2 button{
+    width: 100%;
+    border: none;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+}
+
+.b531, .b532{
+    height: 191px;
+    width: 136px;
+    border-radius: 5px;
+    margin-right: -20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.b531{
+    background-image: url(observing-elena-evoy-1-285x399.webp);
+    background-size: cover;
+}
+
+.b531 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.b531 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.b532{
+    background-image: url(last-game-1-285x400.webp);
+    background-size: cover;
+}
+
+.b532 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.b532 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.row5r2{
+    margin-top: -160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row5r2 button{
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    width: 332px;
+    height: 43px;
+    font-size: 0.85rem;
+}
+
+/*********************************FOOTER**********************************************************************/
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #2c2c2c;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 45px;
+    color: #aabee4;
+}
+
+.social{
+    width: 25%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    margin-top: 40px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    list-style: none;
+}
+
+li{
+    padding: 8px;
+}
+
+.otherlinks{
+    width: 33.33%;
+    height: 300px;
+    text-align: center;
+}
+
+.fan{
+    width: 33.33%;
+    height: 300px;
+    text-align: center;
+}
+
+.fan h2{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.fan button{
+    border: none;
+    border-radius: 10px;
+    background-color: #fc5342;
+    width: 277px;
+    height: 45px;
+    font-size: 1rem;
+    color:#FFFFFF;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fan p{
+    color: #FFFFFF;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.fcontent1{
+    margin-top: 40px;
+}
+
+.fcontent2{
+    margin-top: 80px;
+}
+
+.icon i{
+    width: 45px;
+    height: 45px;
+}
+
+/*************************************LOGIN FORM************************************************************/
+
+
+#loginpopupform{
+    width: 500px;
+    height: 700px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: none;
+    position:relative;
+    z-index: 9;
+    top: -3450px;
+    left: 500px;
+    background-color: #1F1F1F;
+}
+
+.loginpopup{
+    text-align: center;
+    width:100%;
+    background-color: #1F1F1F;
+}
+
+.lclose{
+    height: 30px;
+    width: 97%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+.loginheading{
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signop{
+    padding: 5px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginfb{
+    padding: 5px;
+}
+
+.loginfb button{
+    margin-left: 20px;
+    width: 80%;
+    background-color:#2579fb;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logintwitter{
+    padding: 5px;
+}
+
+.logintwitter button{
+    margin-left: 20px;
+    width: 80%;
+    background-color:#1ea7f9;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formContainer h4{
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inp input{
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    font-family: arial;
+    font-size: 1rem;
+    color: black;
+    border-radius: 10px;
+}
+
+.confirmlogin button{
+    width: 80%;
+    margin-left: 20px;
+    border:none;
+    border-radius: 10px;
+    background-color: #FC5342 ;
+    color:#FFFFFF;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.forgotpswd{
+    font-family: arial;
+}
+
+.loginlogo{
+    padding: 0px;
+    background-image: url(logo6.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+/***********************************/
+
+#signuppopupform{
+    width: 500px;
+    height: 820px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: none;
+    position: relative;
+    z-index: 9;
+    top: -3530px;
+    left: 500px;
+    background-color: #1F1F1F;
+}
+
+.signpopup{
+    text-align: center;
+    width:100%;
+    background-color: #1F1F1F;
+}
+
+.sclose{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    width: 97%;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+.signheading{
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signp{
+    padding: 5px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+}
+
+.signfb button{
+    margin-left: 50px;
+    width: 80%;
+    background-color:#2579fb;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signtwitter button{
+    margin-left: 50px;
+    width: 80%;
+    background-color:#1ea7f9;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signfb{
+    padding: 5px;
+}
+
+.signtwitter{
+    padding: 5px;
+}
+
+.sor{
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+}
+
+.scontent input{
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    font-family: arial;
+    font-size: 1rem;
+    color: black;
+    border-radius: 10px;
+}
+
+#agree{
+    display: inline;
+    margin-left: -130px;
+    margin-right:-170px;
+}
+
+.confirmsign button{
+    width: 80%;
+    margin-left: 50px;
+    border:none;
+    border-radius: 10px;
+    background-color: #FC5342 ;
+    color:#FFFFFF;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sdesc{
+    font-family: arial;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.signlogo{
+    background-image: url(logo6.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+

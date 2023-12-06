@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="animeMstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<script>
+    function openform()
+    {
+        document.getElementById("loginpopupform").style.display = "block";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "blur(20px)";
+        }
+        document.getElementsByClassName("content")[0].style.display = "none"
+    }
+
+    function closeform()
+    {
+        document.getElementById("loginpopupform").style.display = "none";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "none";
+        }
+        
+    }
+
+    function opensignform()
+    {
+        document.getElementById("signuppopupform").style.display = "block";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "blur(20px)";
+        }
+    }
+
+    function closesignform()
+    {
+        document.getElementById("signuppopupform").style.display = "none";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "none";
+        }
+    }
+
+    function change()
+    {
+        window.location.replace("index.html");
+    }
+</script>
+<body>
+    <header> 
+        <div class="topnav blur">
+            <div class="logo" onclick="change()"></div>
+            <div class="options">
+                <a href="animeM.html">Anime</a>
+                <a href="mangaM.html">Manga</a>
+                <a href="characterM.html">Characters</a>
+                <a href="communityM.html">Community</a>
+            </div>
+            <div class="others">
+                <select id="drop">
+                    <option value="anime">Anime</option>
+                    <option value="manga">Manga</option>
+                    <option value="characters">Characters</option>
+                    <option value="people">People</option>
+                    <option value="users">Users</option>
+                </select>
+                <a href="#"><i class="fa-solid fa-bell"></i></a>
+                <a href="#" onclick="opensignform()">Sign up</a>
+                <a href="#" onclick="openform()">Login</a>
+            </div>
+        </div>
+        <div class="panel blur">
+            <div class="pcontent">
+                <h1>Discover new anime</h1>
+                <p>Find your new favorites, track your progress, watch videos.</p>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content1 blur">
+            <h2>Popular this week</h2>
+            <div class="row1">
+                <div class="r1b1"><h3>SPY x FAMILY 2nd Season</h3></div>
+                <div class="r1b2"><h3>
+                    Shangri-La Frontier</h3></div>
+                <div class="r1b3"><h3>Undead Unluck</h3></div>
+                <div class="r1b4"><h3>The 100 Girlfriends Who Really, Really, Really, Really, Really Love You</h3></div>
+                <div class="r1b5"><h3>The Saint's Magic Power is Omnipotent 2nd Season</h3></div>
+            </div>
+            <button>SEE ALL POPULAR THIS WEEK</button>
+        </div>
+        <div class="content2 blur"></div>
+        <div class="content3">
+            <h2>Fall 2023 anime</h2>
+            <div class="row3">
+                <div class="r3b1"><h3>Gintama on Theater</h3></div>
+                <div class="r3b2"><h3>
+                    Protocol: Rain</h3></div>
+                <div class="r3b3"><h3>My New Boss is Goofy</h3></div>
+                <div class="r3b4"><h3>The Saint's Magic Power is Omnipotent 2nd Season</h3></div>
+                <div class="r3b5"><h3>Kitarou Tanjou: Gegege no Nazo</h3></div>
+                <div class="r3b6"><h3>Paradox Live the Animation</h3></div>
+                <div class="r3b7"><h3>Scott Pilgrim Takes Off</h3></div>
+            </div>
+            <button>SEE ALL CURRENT ANIME</button>
+        </div>
+        <div class="content4 blur">
+            <div class="slideshow"><iframe src="https://www.youtube.com/embed/sBLsE-NKEoI?autoplay=1&mute=0"></iframe></div>
+            <div class="desc">
+                <h1>Watch anime online</h1>
+                <p>Stream over 45,000 legal, industry-supported anime episodes here on AnimeRealm. Create your anime list on AnimeRealm and we'll keep your place when you watch videos on our site.</p>
+                <div class="btn">
+                    <button id="btn1">WATCH NOW</button>
+                    <button id="btn2">SIGN UP</button>
+                </div>
+            </div>
+        </div>
+        <div class="content5 blur">
+            <h2>Newest Anime Recommendation</h2>
+            <div class="row4">
+                <div class="row4r1">
+                    <div class="r4b1">
+                        <div class="r4b1r1">
+                         <div class="b11"><h3>IF YOU LIKED...</h3><p>Buddy Daddies</p></div>
+                         <div class="b12"><h3>YOU MIGHT LIKE</h3><p>The Yakuza's Guide to Babysitting</p></div>
+                         </div>
+                         <div class="r4b1r2">
+                             <button>read reason</button>
+                         </div>
+                     </div>
+                     <div class="r4b2">
+                         <div class="r4b2r1">
+                         <div class="b21"><h3>IF YOU LIKED...</h3><p>Dr. Ramune Mysterious Disease Specialist</p></div>
+                         <div class="b22"><h3>YOU MIGHT LIKE</h3><p>The Morose Mononokean</p></div>
+                         </div>
+                         <div class="r4b2r2">
+                             <button>read reason</button>
+                         </div>
+                     </div>
+                     <div class="r4b3">
+                         <div class="r4b3r1">
+                             <div class="b31"><h3>IF YOU LIKED...</h3><p>Kokoro Connect</p></div>
+                             <div class="b32"><h3>YOU MIGHT LIKE</h3><p>Rascals Does Not Dream of Bunny Girl Senpai</p></div>
+                         </div>
+                         <div class="r4b3r2">
+                             <button>read reason</button>
+                         </div>
+                     </div>
+                </div>
+                <div class="row4r2">
+                    <button>SEE MORE RECOMMENDATIONS</button>
+                </div>
+            </div>
+        </div>
+        <div class="content6 blur">
+            <h2>Recently added anime</h2>
+            <div class="row5">
+                <div class="r5b1"><h3>Honnouji no Hen</h3></div>
+                <div class="r5b2"><h3>
+                    Watame Did Borderline Nothing Wrong</h3></div>
+                <div class="r5b3"><h3>Project Symphogear: Next</h3></div>
+                <div class="r5b4"><h3>The Vexations of a Shut-In Vampire Princess Recap</h3></div>
+                <div class="r5b5"><h3>Astro Note</h3></div>
+                <div class="r5b6"><h3>A journey Through Another World: Raising Kids While Adventuring</h3></div>
+                <div class="r5b7"><h3>Ya Boy Kongming! Road to Summer Sonia</h3></div>
+            </div>
+            <button>SEE ALL RECENT ANIME</button>
+        </div>
+    </div>
+    <div class="loginpopup">
+        <div class="formpopup" id="loginpopupform">
+            <form action="/action_page.php" class="formContainer">
+                <div class="lclose" onclick = "closeform()"><i class="fa-solid fa-xmark"></i></div>
+                <div class="loginlogo"></div>
+                <div class="loginheading"><h2>Log in to AnimeRealm</h2></div>
+                <div class="signop"><p>Need an account? Sign up now</p></div>
+                <div class="loginfb"><button><i class="fa-brands fa-square-facebook"></i>  Login with Facebook</button></div>
+                <div class="logintwitter"><button><i class="fa-brands fa-twitter"></i> Login with Twitter</button></div>
+                <h4>Or</h4>
+                <div class="inp">
+                    <input type="text" name="username" placeholder="Username or email address">
+                    <input type="password" name="pswd" placeholder="Password">
+                </div>
+                <div class="confirmlogin">
+                    <button>LOG IN</button>
+                </div>
+                <div class="forgotpswd"><p>Forgot your password?</p></div>
+            </form>
+        </div>
+    </div>
+    <div class="signform">
+        <div class="signuppopup" id="signuppopupform">
+            <form action="/action_page.php" class="formContainer">
+                <div class="sclose" onclick = "closesignform()"><i class="fa-solid fa-xmark"></i></div>
+                <div class="signlogo"></div>
+                <div class="signheading"><h1>Sign up for AnimeRealm</h1></div>
+                <div class="signp"><p>Discover anime and manga, track your progress, get recommendations, and watch legal anime. For free!</p></div>
+                <div class="signfb"><button><i class="fa-brands fa-square-facebook"></i> Sign up with Facebook</button></div>
+                <div class="signtwitter"><button><i class="fa-brands fa-twitter"></i> Sign up with Twitter</button></div>
+                <div class="sor"><h4>Or</h4></div>
+                <div class="scontent">
+                    <input type="text" name="username" placeholder="Username">
+                    <input type="text" name="email" placeholder="Email">
+                    <input type="password" name="pswd" placeholder="Password">
+                    <input id = "agree" type="checkbox" name="agree">I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+                    <div class="g-recaptcha" data-sitekey="Your site key goes here"></div>
+                </div>
+                <div class="confirmsign"><button>CREATE ACCOUNT</button></div>
+                <div class="sdesc"><p>Already a member? <a href="#"> Log in</a></p></div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="fan">
+            <div class="fcontent1">
+                <div class="heading"><h2><b>AnimeRealm</b> is a run by fans, for fans</h2></div>
+                <div class="button"><button><i class="fa-brands fa-patreon"></i> Support us on Patreon</button></div>
+                <div class="para"><p>Learn about more ways to <a href="#">support AnimeRealm</a></p></div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="fcontent2">
+                <div class="icon">
+                    <div class="fb"><i class="fa-brands fa-square-facebook"></i></div>
+                    <div class="twitter"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="insta"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="discord"><i class="fa-brands fa-discord"></i></div>
+                    <div class="patreon"><i class="fa-brands fa-patreon"></i></div>
+                </div>
+                <div class="mode"></div>
+            </div>
+        </div>
+        <div class="otherlinks">
+            <ul>
+                <li><a>Contact</a></li>
+                <li><a>About</a></li>
+                <li><a>Terms of Use</a></li>
+                <li><a>Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

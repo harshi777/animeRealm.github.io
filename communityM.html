@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="communityMstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<script>
+    function openform()
+    {
+        document.getElementById("loginpopupform").style.display = "block";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "blur(20px)";
+        }
+        document.getElementsByClassName("content")[0].style.display = "none"
+    }
+
+    function closeform()
+    {
+        document.getElementById("loginpopupform").style.display = "none";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "none";
+        }
+        
+    }
+
+    function opensignform()
+    {
+        document.getElementById("signuppopupform").style.display = "block";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "blur(20px)";
+        }
+    }
+
+    function closesignform()
+    {
+        document.getElementById("signuppopupform").style.display = "none";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "none";
+        }
+    }
+
+    function change()
+    {
+        window.location.replace("index.html");
+    }
+</script>
+<body>
+    <header> 
+        <div class="topnav blur">
+            <div class="logo" onclick="change()"></div>
+            <div class="options">
+                <a href="animeM.html">Anime</a>
+                <a href="mangaM.html">Manga</a>
+                <a href="characterM.html">Characters</a>
+                <a href="communityM.html">Community</a>
+            </div>
+            <div class="others">
+                <select id="drop">
+                    <option value="anime">Anime</option>
+                    <option value="manga">Manga</option>
+                    <option value="characters">Characters</option>
+                    <option value="people">People</option>
+                    <option value="users">Users</option>
+                </select>
+                <a href="#"><i class="fa-solid fa-bell"></i></a>
+                <a href="#" onclick="opensignform()">Sign up</a>
+                <a href="#" onclick="openform()">Login</a>
+            </div>
+        </div> 
+        <div class="panel blur">
+            <div class="pcontent">
+                <h1>Be a part of the community</h1>
+                <p>Meet new friends, make reviews and recommendations.</p>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content1 blur">
+            <h2>Recent anime reviews</h2>
+            <div class="row1">
+                <div class="r1b1"><h3>Fruits Basket 1sr Season</h3><p>tsukinohana</p><p>9.5/10</p></div>
+                <div class="r1b2"><h3>So I'm a Spider, So What?</h3><p>MaoHajime</p><p>6/10</p></div>
+                <div class="r1b3"><h3>Link Click 2nd Season</h3><p>treshcan007</p><p>4/10</p></div>
+                <div class="r1b4"><h3>Anima Yell!</h3><p>DGFischer</p><p>7.9/10</p></div>
+                <div class="r1b5"><h3>Your Name</h3><p>OneUponAHaru</p><p>10/10</p></div>
+            </div>
+            <button>SEE ALL RECENT REVIEWS</button>
+        </div>
+        <div class="content2 blur"></div>
+        <div class="content3 blur">
+            <h2>Join the community</h2>
+            <p>Create an anime and manga list, share your opininons, and automatically track progress when watching anime on the site.</p>
+            <p>Sign up for free</p>
+            <h2>Newest anime recommendations</h2>
+            <div class="row3">
+                <div class="row3r1">
+                    <div class="r3b1">
+                        <div class="r3b1r1">
+                         <div class="b11"><h3>IF YOU LIKED...</h3><p>Black Butler</p></div>
+                         <div class="b12"><h3>YOU MIGHT LIKE</h3><p>Pandora Hearts</p></div>
+                         </div>
+                         <div class="r3b1r2">
+                             <button>read reason</button>
+                         </div>
+                     </div>
+                     <div class="r3b2">
+                         <div class="r3b2r1">
+                         <div class="b21"><h3>IF YOU LIKED...</h3><p>Sleepy Princess in the Demon Castle</p></div>
+                         <div class="b22"><h3>YOU MIGHT LIKE</h3><p>Welcome to Demon School, Iruma-kun</p></div>
+                         </div>
+                         <div class="r3b2r2">
+                             <button>read reason</button>
+                         </div>
+                     </div>
+                     <div class="r3b3">
+                         <div class="r3b3r1">
+                             <div class="b31"><h3>IF YOU LIKED...</h3><p>Buddy Daddies</p></div>
+                             <div class="b32"><h3>YOU MIGHT LIKE</h3><p>The Yakuza's Guide to Babysitting</p></div>
+                         </div>
+                         <div class="r3b3r2">
+                             <button>read reason</button>
+                         </div>
+                     </div>
+                </div>
+                <div class="row3r2">
+                    <button>SEE MORE RECOMMENDATIONS</button>
+                </div>
+            </div>
+        </div>
+        <div class="content4 blur">
+            <h2>New Users</h2>
+            <div class="row4">
+                <div class="r4b1"><h3>KimMariTae</h3></div>
+                <div class="r4b2"><h3>
+                    Moosushi</h3></div>
+                <div class="r4b3"><h3>Cruell</h3></div>
+                <div class="r4b4"><h3>SuperEuroBeat</h3></div>
+                <div class="r4b5"><h3>Itsssgi0</h3></div>
+                <div class="r4b6"><h3>Sara2Abbas</h3></div>
+                <div class="r4b7"><h3>Woongiee</h3></div>
+            </div>
+        </div>
+        <div class="content5 blur">
+            <h2>Recent Manga Reviews</h2>
+            <div class="row5">
+                <div class="r5b1"><h3>Love Me Dramatically</h3><p>Hanna805</p><p>8.2/10</p></div>
+                <div class="r5b2"><h3>
+                    Top to Bottom</h3><p>florida5611</p><p>9.5/10</p></div>
+                <div class="r5b3"><h3>Low Tide in Twilight</h3><p>YuriS1UT</p><p>0.1/10</p></div>
+                <div class="r5b4"><h3>Sirius: Twin Stars</h3><p>Yae11</p><p>10/10</p></div>
+                <div class="r5b5"><h3>The Rib of Adam</h3><p>Hanna805</p><p>0.5/10</p></div>
+                <div class="r5b6"><h3>Into the Horizon</h3><p>kyomixm</p><p>9/10</p></div>
+                <div class="r5b7"><h3>Aporia</h3><p>potaTOES1</p><p>10/10</p></div>
+            </div>
+        </div>
+        <div class="content6 blur">
+            <h2>Newest manga recommendations</h2>
+            <div class="row6">
+                <div class="row6r1">
+                    <div class="r6b1">
+                        <div class="r6b1r1">
+                         <div class="b11"><h3>IF YOU LIKED...</h3><p>Black Butler</p></div>
+                         <div class="b12"><h3>YOU MIGHT LIKE</h3><p>Pandora Hearts</p></div>
+                         </div>
+                         <div class="r6b1r2">
+                             <button>read reason</button>
+                         </div>
+                     </div>
+                     <div class="r6b2">
+                         <div class="r6b2r1">
+                         <div class="b21"><h3>IF YOU LIKED...</h3><p>Sleepy Princess in the Demon Castle</p></div>
+                         <div class="b22"><h3>YOU MIGHT LIKE</h3><p>Welcome to Demon School, Iruma-kun</p></div>
+                         </div>
+                         <div class="r6b2r2">
+                             <button>read reason</button>
+                         </div>
+                     </div>
+                     <div class="r6b3">
+                         <div class="r6b3r1">
+                             <div class="b31"><h3>IF YOU LIKED...</h3><p>Buddy Daddies</p></div>
+                             <div class="b32"><h3>YOU MIGHT LIKE</h3><p>The Yakuza's Guide to Babysitting</p></div>
+                         </div>
+                         <div class="r6b3r2">
+                             <button>read reason</button>
+                         </div>
+                     </div>
+                </div>
+                <div class="row6r2">
+                    <button>SEE MORE RECOMMENDATIONS</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="loginpopup">
+        <div class="formpopup" id="loginpopupform">
+            <form action="/action_page.php" class="formContainer">
+                <div class="lclose" onclick = "closeform()"><i class="fa-solid fa-xmark"></i></div>
+                <div class="loginlogo"></div>
+                <div class="loginheading"><h2>Log in to AnimeRealm</h2></div>
+                <div class="signop"><p>Need an account? Sign up now</p></div>
+                <div class="loginfb"><button><i class="fa-brands fa-square-facebook"></i>  Login with Facebook</button></div>
+                <div class="logintwitter"><button><i class="fa-brands fa-twitter"></i> Login with Twitter</button></div>
+                <h4>Or</h4>
+                <div class="inp">
+                    <input type="text" name="username" placeholder="Username or email address">
+                    <input type="password" name="pswd" placeholder="Password">
+                </div>
+                <div class="confirmlogin">
+                    <button>LOG IN</button>
+                </div>
+                <div class="forgotpswd"><p>Forgot your password?</p></div>
+            </form>
+        </div>
+    </div>
+    <div class="signform">
+        <div class="signuppopup" id="signuppopupform">
+            <form action="/action_page.php" class="formContainer">
+                <div class="sclose" onclick = "closesignform()"><i class="fa-solid fa-xmark"></i></div>
+                <div class="signlogo"></div>
+                <div class="signheading"><h1>Sign up for AnimeRealm</h1></div>
+                <div class="signp"><p>Discover anime and manga, track your progress, get recommendations, and watch legal anime. For free!</p></div>
+                <div class="signfb"><button><i class="fa-brands fa-square-facebook"></i> Sign up with Facebook</button></div>
+                <div class="signtwitter"><button><i class="fa-brands fa-twitter"></i> Sign up with Twitter</button></div>
+                <div class="sor"><h4>Or</h4></div>
+                <div class="scontent">
+                    <input type="text" name="username" placeholder="Username">
+                    <input type="text" name="email" placeholder="Email">
+                    <input type="password" name="pswd" placeholder="Password">
+                    <input id = "agree" type="checkbox" name="agree">I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+                    <div class="g-recaptcha" data-sitekey="Your site key goes here"></div>
+                </div>
+                <div class="confirmsign"><button>CREATE ACCOUNT</button></div>
+                <div class="sdesc"><p>Already a member? <a href="#"> Log in</a></p></div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="fan">
+            <div class="fcontent1">
+                <div class="heading"><h2><b>AnimeRealm</b> is a run by fans, for fans</h2></div>
+                <div class="button"><button><i class="fa-brands fa-patreon"></i> Support us on Patreon</button></div>
+                <div class="para"><p>Learn about more ways to <a href="#">support AnimeRealm</a></p></div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="fcontent2">
+                <div class="icon">
+                    <div class="fb"><i class="fa-brands fa-square-facebook"></i></div>
+                    <div class="twitter"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="insta"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="discord"><i class="fa-brands fa-discord"></i></div>
+                    <div class="patreon"><i class="fa-brands fa-patreon"></i></div>
+                </div>
+                <div class="mode"></div>
+            </div>
+        </div>
+        <div class="otherlinks">
+            <ul>
+                <li><a>Contact</a></li>
+                <li><a>About</a></li>
+                <li><a>Terms of Use</a></li>
+                <li><a>Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

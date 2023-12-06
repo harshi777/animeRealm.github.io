@@ -1,0 +1,1178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #1F1F1F;
+}
+
+
+/**************************************** TOP NAVIGATION BAR**************************************************/
+
+.topnav{
+    width: 100%;
+    height: 54px;
+    font: 2rem;
+    background-color: #282828;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    background-image: url(logo6.jpg);
+    background-size:cover;
+    border-radius: 50%;
+}
+
+.topnav a{
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+
+.options a{
+    padding: 20px;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.others a{
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#drop{
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+}
+
+/************************************************** PANEl****************************************************/
+
+.panel{
+    width:100%;
+    height: 300px;
+    background-image: url(panel7.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.panel p{
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: arial;
+    color: rgba(255,255,255, 1.0);
+}
+
+.panel h1{
+    font-size: 2rem;
+    font-family: Arial;
+    position: relative;
+    font-family: arial;
+    color: rgba(255,255,255, 1.0);
+
+}
+
+.pcontent{
+    background-color: #1F1F1F;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/************************************************POPULAR ANIME THIS WEEK**************************************/
+
+.content1{
+    width: 1255px;
+    height: 350px;
+    margin-left: 130px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+.content1 h2{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 1.6rem;
+    font-family: Arial;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.r1b1{
+    background-image: url(spy-x-family-movie-code-white-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r1b1 h3{
+    position: relative;
+    margin-top: 239px;
+    font-size: 0.85rem;
+    font-family: Arial;
+    text-align: center;
+}
+
+.r1b2{
+    background-image: url(shangri-la-frontier-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r1b2 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r1b3{
+    background-image: url(undead-unluck-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r1b3 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r1b4{
+    background-image: url(the-100-girlfriends-who-really-really-really-really-really-love-you-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    border-radius: 5px;
+    height: 231px;
+}
+
+.r1b4 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r1b5{
+    background-image: url(the-saints-magic-power-is-omnipotent-2nd-season-1-285x400.webp);
+    background-size: cover;
+    width: 165px;
+    border-radius: 5px;
+    height: 231px;
+}
+
+.r1b5 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.content1 button{
+    margin-top: 90px;
+    margin-left: 530px;
+    margin-bottom: 70px;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    width: 232px;
+    height: 43px;
+    font-size: 0.85rem;
+}
+
+/******************************************** BLANK RECTANGLE ************************************************/
+
+.content2{
+    height: 90px;
+    width: 1255px;
+    background-color: #282828;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+/************************************************POPULAR ANIME THIS WEEK**************************************/
+
+.content3{
+    width: 1255px;
+    height: 350px;
+    margin-left: 130px;
+}
+
+.row3{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+.content3 h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6rem;
+    font-family: Arial;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.r3b1{
+    background-image: url(gintama-on-theater-2d-baragaki-hen-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r3b1 h3{
+    position: relative;
+    margin-top: 239px;
+    font-size: 0.85rem;
+    font-family: Arial;
+    text-align: center;
+}
+
+.r3b2{
+    background-image: url(protocol-rain-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r3b2 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r3b3{
+    background-image: url(my-new-boss-is-goofy-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r3b3 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r3b4{
+    background-image: url(the-saints-magic-power-is-omnipotent-2nd-season-1-285x400.webp);
+    background-size: cover;
+    width: 165px;
+    border-radius: 5px;
+    height: 231px;
+}
+
+.r3b4 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r3b5{
+    background-image: url(kitarou-tanjou-gegege-no-nazo-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    border-radius: 5px;
+    height: 231px;
+}
+
+.r3b5 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r3b6{
+    background-image: url(paradox-live-the-animation-1-285x399.webp);
+    background-size: cover;
+    border-radius: 5px;
+    width: 165px;
+    height: 231px;
+}
+
+.r3b6 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r3b7{
+    background-image: url(scott-pilgrim-takes-off-1-285x399.webp);
+    background-size: cover;
+    border-radius: 5px;
+    width: 165px;
+    height: 231px;
+}
+
+.r3b7 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.content3 button{
+    margin-top: 80px;
+    margin-left: 530px;
+    margin-bottom: 50px;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    width: 232px;
+    height: 43px;
+    font-size: 0.85rem;
+}
+
+/*******************************************SLIDESHOW AND DESCRIPTION*****************************************/
+.content4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.slideshow{
+    width: 690px;
+    height: 380px;
+    margin-left: -150px;
+    margin: 20px;
+}
+
+.slideshow iframe{
+    width: 100%;
+    height: 380px;
+    border: none;
+}
+
+.desc{
+    width: 500px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 1rem;
+}
+
+.desc h1, p{
+    padding-bottom: 20px;
+}
+
+button{
+    height: 40px;
+    margin-right: 20px;
+    padding: 10px;
+    font-family: arial;
+    font-size: 1rem;
+    color: white;
+    border: none;
+}
+
+#btn1{
+    background-color: #2579fb;
+}
+
+#btn2{
+    background-color: #FC5342;
+}
+
+/***********************************************NEWEST ANIME RECOMMENDATIONS**********************************/
+
+.content5{
+    width: 1205px;
+    height: 550px;
+    margin-left: 130px;
+    margin-top: -10px;
+    padding: 25.6px;
+}
+
+.content5 h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6rem;
+    font-family: Arial;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.row4r1{
+    display: flex;
+}
+/*****************************************BOX 1***************************************************************/
+
+.r4b1{
+    width: 400px;
+    height: 550px;
+}
+
+.r4b1r1{
+    display: flex;
+}
+
+.r4b1r2{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 320px;
+}
+
+.r4b1r2 button{
+    width: 100%;
+    border: none;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+}
+
+.b11, .b12{
+    height: 191px;
+    width: 136px;
+    border-radius: 5px;
+    margin-right: -20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.b11{
+    background-image: url(buddy-daddies-1-285x403.webp);
+    background-size: cover;
+}
+
+.b11 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.b11 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.b12{
+    background-image: url(the-yakuzas-guide-to-babysitting-1-285x400.webp);
+    background-size: cover;
+}
+
+.b12 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.b12 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+/*********************************************BOX 2***********************************************************/
+
+.r4b2{
+    width: 400px;
+    height: 550px;
+}
+
+.r4b2r1{
+    display: flex;
+}
+
+.r4b2r2{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 320px;
+}
+
+.r4b2r2 button{
+    width: 100%;
+    border: none;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+}
+
+.b21, .b22{
+    height: 191px;
+    width: 136px;
+    border-radius: 5px;
+    margin-right: -20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.b21{
+    background-image: url(dr-ramune-mysterious-disease-specialist-1-190x269.jpg);
+    background-size: cover;
+}
+
+.b21 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.b21 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.b22{
+    background-image: url(the-morose-mononokean-1-190x285.jpg);
+    background-size: cover;
+}
+
+.b22 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.b22 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+/**********************************************BOX 3**********************************************************/
+
+.r4b3{
+    width: 400px;
+    height: 550px;
+}
+
+.r4b3r1{
+    display: flex;
+}
+
+.r4b3r2{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 320px;
+}
+
+.r4b3r2 button{
+    width: 100%;
+    border: none;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+}
+
+.b31, .b32{
+    height: 191px;
+    width: 136px;
+    border-radius: 5px;
+    margin-right: -20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.b31{
+    background-image: url(kokoro-connect-1-190x267.jpg);
+    background-size: cover;
+}
+
+.b31 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.b31 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.b32{
+    background-image: url(rascal-does-not-dream-of-bunny-girl-senpai-1-285x399.jpg);
+    background-size: cover;
+}
+
+.b32 h3{
+    margin-top: -19px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.b32 p{
+    margin-top: 195px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.row4r2{
+    margin-top: -160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row4r2 button{
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    width: 332px;
+    height: 43px;
+    font-size: 0.85rem;
+}
+
+/************************************************POPULAR ANIME THIS WEEK**************************************/
+
+.content6{
+    width: 1255px;
+    height: 350px;
+    margin-left: 130px;
+    margin-top: -30px;
+}
+
+.row5{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+.content6 h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6rem;
+    font-family: Arial;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.r5b1{
+    background-image: url(honnouji-no-hen-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r5b1 h3{
+    position: relative;
+    margin-top: 239px;
+    font-size: 0.85rem;
+    font-family: Arial;
+    text-align: center;
+}
+
+.r5b2{
+    background-image: url(watame-did-borderline-nothing-wrong-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r5b2 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r5b3{
+    background-image: url(default-anime-fall.png);
+    background-size: cover;
+    width: 165px;
+    height: 231px;
+    border-radius: 5px;
+}
+
+.r5b3 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r5b4{
+    background-image: url(default-anime-fall.png);
+    background-size: cover;
+    width: 165px;
+    border-radius: 5px;
+    height: 231px;
+}
+
+.r5b4 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r5b5{
+    background-image: url(astro-note-1-285x399.webp);
+    background-size: cover;
+    width: 165px;
+    border-radius: 5px;
+    height: 231px;
+}
+
+.r5b5 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r5b6{
+    background-image: url(a-journey-through-another-world-raising-kids-while-adventuring-1-285x399.webp);
+    background-size: cover;
+    border-radius: 5px;
+    width: 165px;
+    height: 231px;
+}
+
+.r5b6 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.r5b7{
+    background-image: url(default-anime-fall.png);
+    background-size: cover;
+    border-radius: 5px;
+    width: 165px;
+    height: 231px;
+}
+
+.r5b7 h3{
+    position: relative;
+    margin-top: 239px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: Arial;
+}
+
+.content6 button{
+    margin-top: 60px;
+    margin-left: 530px;
+    margin-bottom: 50px;
+    background-color: #3e3e3e;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    width: 232px;
+    height: 43px;
+    font-size: 0.85rem;
+}
+
+/***********************************FOOTER******************************************************************/
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #2c2c2c;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 45px;
+    color: #aabee4;
+}
+
+.social{
+    width: 25%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    margin-top: 40px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    list-style: none;
+}
+
+li{
+    padding: 8px;
+}
+
+.otherlinks{
+    width: 33.33%;
+    height: 300px;
+    text-align: center;
+}
+
+.fan{
+    width: 33.33%;
+    height: 300px;
+    text-align: center;
+}
+
+.fan h2{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.fan button{
+    border: none;
+    border-radius: 10px;
+    background-color: #fc5342;
+    width: 277px;
+    height: 45px;
+    font-size: 1rem;
+    color:#FFFFFF;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fan p{
+    color: #FFFFFF;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.fcontent1{
+    margin-top: 40px;
+}
+
+.fcontent2{
+    margin-top: 80px;
+}
+
+/*************************************LOGIN FORM************************************************************/
+
+
+#loginpopupform{
+    width: 500px;
+    height: 700px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: none;
+    position:relative;
+    z-index: 9;
+    top: -2688px;
+    left: 500px;
+    background-color: #1F1F1F;
+}
+
+.loginpopup{
+    text-align: center;
+    width:100%;
+    background-color: #1F1F1F;
+}
+
+.lclose{
+    height: 30px;
+    width: 97%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+.loginheading{
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signop{
+    padding: 5px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginfb{
+    padding: 5px;
+}
+
+.loginfb button{
+    margin-left: 20px;
+    width: 80%;
+    background-color:#2579fb;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logintwitter{
+    padding: 5px;
+}
+
+.logintwitter button{
+    margin-left: 20px;
+    width: 80%;
+    background-color:#1ea7f9;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formContainer h4{
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inp input{
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    font-family: arial;
+    font-size: 1rem;
+    color: black;
+    border-radius: 10px;
+}
+
+.confirmlogin button{
+    width: 80%;
+    margin-left: 20px;
+    border:none;
+    border-radius: 10px;
+    background-color: #FC5342 ;
+    color:#FFFFFF;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.forgotpswd{
+    font-family: arial;
+}
+
+.loginlogo{
+    padding: 0px;
+    background-image: url(logo6.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+/***********************************/
+
+#signuppopupform{
+    width: 500px;
+    height: 820px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: none;
+    position: relative;
+    z-index: 9;
+    top: -2730px;
+    left: 500px;
+    background-color: #1F1F1F;
+}
+
+.signpopup{
+    text-align: center;
+    width:100%;
+    background-color: #1F1F1F;
+}
+
+.sclose{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    width: 97%;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+.signheading{
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signp{
+    padding: 5px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+}
+
+.signfb button{
+    margin-left: 50px;
+    width: 80%;
+    background-color:#2579fb;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signtwitter button{
+    margin-left: 50px;
+    width: 80%;
+    background-color:#1ea7f9;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signfb{
+    padding: 5px;
+}
+
+.signtwitter{
+    padding: 5px;
+}
+
+.sor{
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+}
+
+.scontent input{
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    font-family: arial;
+    font-size: 1rem;
+    color: black;
+    border-radius: 10px;
+}
+
+#agree{
+    display: inline;
+    margin-left: -130px;
+    margin-right:-170px;
+}
+
+.confirmsign button{
+    width: 80%;
+    margin-left: 50px;
+    border:none;
+    border-radius: 10px;
+    background-color: #FC5342 ;
+    color:#FFFFFF;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sdesc{
+    font-family: arial;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.signlogo{
+    background-image: url(logo6.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}

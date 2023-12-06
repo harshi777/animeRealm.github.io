@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mangaMstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<script>
+    function openform()
+    {
+        document.getElementById("loginpopupform").style.display = "block";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "blur(20px)";
+        }
+        document.getElementsByClassName("content")[0].style.display = "none"
+    }
+
+    function closeform()
+    {
+        document.getElementById("loginpopupform").style.display = "none";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "none";
+        }
+        
+    }
+
+    function opensignform()
+    {
+        document.getElementById("signuppopupform").style.display = "block";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "blur(20px)";
+        }
+    }
+
+    function closesignform()
+    {
+        document.getElementById("signuppopupform").style.display = "none";
+        const el = document.getElementsByClassName("blur");
+        for(let x in el)
+        {
+            el[x].style.filter = "none";
+        }
+    }
+
+    function change()
+    {
+        window.location.replace("index.html");
+    }
+</script>
+<body>
+    <header> 
+        <div class="topnav blur">
+            <div class="logo" onclick="change()"></div>
+            <div class="options">
+                <a href="animeM.html">Anime</a>
+                <a href="mangaM.html">Manga</a>
+                <a href="characterM.html">Characters</a>
+                <a href="communityM.html">Community</a>
+            </div>
+            <div class="others">
+                <select id="drop">
+                    <option value="anime">Anime</option>
+                    <option value="manga">Manga</option>
+                    <option value="characters">Characters</option>
+                    <option value="people">People</option>
+                    <option value="users">Users</option>
+                </select>
+                <a href="#"><i class="fa-solid fa-bell"></i></a>
+                <a href="#" onclick="opensignform()">Sign up</a>
+                <a href="#" onclick="openform()">Login</a>
+            </div>
+        </div> 
+        <div class="panel blur">
+            <div class="pcontent">
+                <h1>Discover manga</h1>
+                <p>Find new manga, webtoons, and light novels, Track your reading progress.</p>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content1 blur">
+            <h2>Popular this week</h2>
+            <div class="row1">
+                <div class="r1b1"><h3>SSS-Class Revival Hunter</h3></div>
+                <div class="r1b2"><h3>
+                I Shall Master This Family</h3></div>
+                <div class="r1b3"><h3>The Swordmaster's Son</h3></div>
+                <div class="r1b4"><h3>Jinx</h3></div>
+                <div class="r1b5"><h3>Chainsaw Man</h3></div>
+            </div>
+            <button>SEE ALL POPULAR MANGA</button>
+        </div>
+        <div class="content2 blur"></div>
+        <div class="content3 blur">
+            <h2>Newest Manga Recommendation</h2>
+            <div class="row3">
+                <div class="row3r1">
+                    <div class="r3b1">
+                        <div class="r3b1r1">
+                         <div class="b11"><h3>IF YOU LIKED...</h3><p>Daily Lives of High School Boys</p></div>
+                         <div class="b12"><h3>YOU MIGHT LIKE</h3><p>Nan Hao Shang Feng</p></div>
+                         </div>
+                         <div class="r3b1r2">
+                             <button>read reason</button>
+                         </div>
+                     </div>
+                     <div class="r3b2">
+                         <div class="r3b2r1">
+                         <div class="b21"><h3>IF YOU LIKED...</h3><p>One Week Family</p></div>
+                         <div class="b22"><h3>YOU MIGHT LIKE</h3><p>Everyday is a Good Day</p></div>
+                         </div>
+                         <div class="r3b2r2">
+                             <button>read reason</button>
+                         </div>
+                     </div>
+                     <div class="r3b3">
+                         <div class="r3b3r1">
+                             <div class="b31"><h3>IF YOU LIKED...</h3><p>Kyougaku Koukou no Genjitsu</p></div>
+                             <div class="b32"><h3>YOU MIGHT LIKE</h3><p>Daily Live of High School Boys</p></div>
+                         </div>
+                         <div class="r3b3r2">
+                             <button>read reason</button>
+                         </div>
+                     </div>
+                </div>
+                <div class="row3r2">
+                    <button>SEE MORE RECOMMENDATIONS</button>
+                </div>
+            </div>
+        </div>
+        <div class="content4 blur">
+            <h2>Recently added anime</h2>
+            <div class="row4">
+                <div class="r4b1"><h3>The Big Apple (Novel)</h3></div>
+                <div class="r4b2"><h3>
+                    Mobile Suit Gundam SEED Freedom (Light Novel)</h3></div>
+                <div class="r4b3"><h3>Embrace Me, You Handsome Devil! I Tried Seducing My Former Lover</h3></div>
+                <div class="r4b4"><h3>The Method Leading to Rio and Shusei's Love Fulfillment</h3></div>
+                <div class="r4b5"><h3>Mousou Shoujo Wa Oatsui no ga Osuki</h3></div>
+                <div class="r4b6"><h3>Seducing the Top Boss</h3></div>
+                <div class="r4b7"><h3>Fighting Fate In This Other World: My Alpha Male Is A Gentle Beast</h3></div>
+            </div>
+            <button>SEE ALL RECENT MANGA</button>
+        </div>
+    </div>
+    <div class="loginpopup">
+        <div class="formpopup" id="loginpopupform">
+            <form action="/action_page.php" class="formContainer">
+                <div class="lclose" onclick = "closeform()"><i class="fa-solid fa-xmark"></i></div>
+                <div class="loginlogo"></div>
+                <div class="loginheading"><h2>Log in to AnimeRealm</h2></div>
+                <div class="signop"><p>Need an account? Sign up now</p></div>
+                <div class="loginfb"><button><i class="fa-brands fa-square-facebook"></i>  Login with Facebook</button></div>
+                <div class="logintwitter"><button><i class="fa-brands fa-twitter"></i> Login with Twitter</button></div>
+                <h4>Or</h4>
+                <div class="inp">
+                    <input type="text" name="username" placeholder="Username or email address">
+                    <input type="password" name="pswd" placeholder="Password">
+                </div>
+                <div class="confirmlogin">
+                    <button>LOG IN</button>
+                </div>
+                <div class="forgotpswd"><p>Forgot your password?</p></div>
+            </form>
+        </div>
+    </div>
+    <div class="signform">
+        <div class="signuppopup" id="signuppopupform">
+            <form action="/action_page.php" class="formContainer">
+                <div class="sclose" onclick = "closesignform()"><i class="fa-solid fa-xmark"></i></div>
+                <div class="signlogo"></div>
+                <div class="signheading"><h1>Sign up for AnimeRealm</h1></div>
+                <div class="signp"><p>Discover anime and manga, track your progress, get recommendations, and watch legal anime. For free!</p></div>
+                <div class="signfb"><button><i class="fa-brands fa-square-facebook"></i> Sign up with Facebook</button></div>
+                <div class="signtwitter"><button><i class="fa-brands fa-twitter"></i> Sign up with Twitter</button></div>
+                <div class="sor"><h4>Or</h4></div>
+                <div class="scontent">
+                    <input type="text" name="username" placeholder="Username">
+                    <input type="text" name="email" placeholder="Email">
+                    <input type="password" name="pswd" placeholder="Password">
+                    <input id = "agree" type="checkbox" name="agree">I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+                    <div class="g-recaptcha" data-sitekey="Your site key goes here"></div>
+                </div>
+                <div class="confirmsign"><button>CREATE ACCOUNT</button></div>
+                <div class="sdesc"><p>Already a member? <a href="#"> Log in</a></p></div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="fan">
+            <div class="fcontent1">
+                <div class="heading"><h2><b>AnimeRealm</b> is a run by fans, for fans</h2></div>
+                <div class="button"><button><i class="fa-brands fa-patreon"></i> Support us on Patreon</button></div>
+                <div class="para"><p>Learn about more ways to <a href="#">support AnimeRealm</a></p></div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="fcontent2">
+                <div class="icon">
+                    <div class="fb"><i class="fa-brands fa-square-facebook"></i></div>
+                    <div class="twitter"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="insta"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="discord"><i class="fa-brands fa-discord"></i></div>
+                    <div class="patreon"><i class="fa-brands fa-patreon"></i></div>
+                </div>
+                <div class="mode"></div>
+            </div>
+        </div>
+        <div class="otherlinks">
+            <ul>
+                <li><a>Contact</a></li>
+                <li><a>About</a></li>
+                <li><a>Terms of Use</a></li>
+                <li><a>Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
